@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website sample by SpeckDevs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <div class="nav">
+            <div>
+                <h1>Logo</h1>
+            </div> <!-- Logo section -->
+            <div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+        </div> <!-- Navigation links -->
+    </div> <!-- Navigation-->
+    </header>
+
+    <section class="hero">
+        <video id="myVideo" src="fox.mp4" autoplay="" muted></video>
+        <div class="heroText">
+            <h1>Welcome to our website</h1>
+            <p>We are glad to have you here. Explore our services and products.</p>
+            <a href="#products" class="btn">Explore</a>
+            </div>
+    </section>
+    <section  id="products" class="products">
+        <h1>Our products</h1>
+        <div class="row">
+            <div class="item" onclick="location.href='product1.html'">
+                <img src="blackshirt.jpg" alt="">
+                <div class="itemTxt">
+                    <h3>Item Title</h3>
+                    <p><span id="originalPrice">599</span><span id="price">₹ 399 /- </span></p>
+                    <span id="discount">20% OFF</span>
+                </div>
+            </div>
+            <div class="item" onclick="location.href='product2.html'">
+                <img src="bda.png" alt="">
+                <div class="itemTxt">
+                    <h3>Item Title</h3>
+                    <p><span id="originalPrice">599</span><span id="price">₹ 399 /- </span></p>
+                    <span id="discount">20% OFF</span>
+                </div>
+            </div>
+            <div class="item" onclick="location.href='product3.html'">
+                <img src="Denim.png" alt="">
+                <div class="itemTxt">
+                    <h3>Item Title</h3>
+                    <p><span id="originalPrice">599</span><span id="price">₹ 399 /- </span></p>
+                    <span id="discount">20% OFF</span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="placeholder.jpeg" alt="">
+                <div class="itemTxt">
+                    <h3>Item Title</h3>
+                    <p><span id="originalPrice">599</span><span id="price">₹ 399 /- </span></p>
+                    <span id="discount">20% OFF</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+</html>
